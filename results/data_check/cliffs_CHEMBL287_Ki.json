@@ -1,0 +1,10 @@
+{
+  "dataset": "CHEMBL287_Ki",
+  "differing_rows": [],
+  "n": 1328,
+  "n_cliff_published": 507,
+  "n_cliff_recomputed": 507,
+  "n_differ": 0,
+  "seconds": 5.539362799999999,
+  "sha256": "e857875848bb64dc6e327e6c42fe9fd36526bbee1b976de4521b55c4c6629894"
+}

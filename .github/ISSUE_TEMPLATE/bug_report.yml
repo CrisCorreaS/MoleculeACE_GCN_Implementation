@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a reproducible problem with validation, analysis, figures or documentation.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository reproduces GCN_GRAPH using published configurations.
+        Share the smallest useful example. Remove credentials, personal paths and private correspondence
+        from any excerpt.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Local analysis or figures
+        - Data or result validation
+        - Documentation
+        - Historical training or cluster workflow
+    validations:
+      required: true
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Expected and observed behaviour
+      description: Explain what should happen and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Include the working directory, exact command and minimal input description. Do not rerun training solely to complete this form.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and revision
+      description: Give the operating system, Python version, relevant package versions and code revision if available. State whether this used the analysis or historical training environment.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant evidence
+      description: Include a short sanitised error excerpt, dataset and fold identifiers, input hashes or figure names where relevant. Do not attach full private logs or checkpoints.
+  - type: textarea
+    id: scientific_impact
+    attributes:
+      label: Possible scientific impact
+      description: State whether you suspect an effect on data, splits, labels, stopping, official metrics or figure interpretation. Unknown is a useful answer.

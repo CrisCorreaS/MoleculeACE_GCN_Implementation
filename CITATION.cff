@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: >-
+  This file describes the bounded GCN_GRAPH reproduction. Cite the original
+  MoleculeACE article and both corrections when describing the benchmark.
+title: GCN reproduction of the corrected MoleculeACE benchmark
+type: software
+license: MIT
+version: "1.0.0"
+authors:
+  - given-names: Cristina
+    family-names: Correa Segade
+repository-code: https://github.com/CrisCorreaS/MoleculeACE_GCN_Implementation
+abstract: >-
+  A bounded reproduction of GCN_GRAPH using corrected MoleculeACE benchmark
+  data and published configurations for 30 datasets and five internal folds.
+  Other published methods appear only as reference results; no additional
+  model strategies or hyperparameter searches are implemented.
+references:
+  - type: software
+    title: MoleculeACE
+    authors:
+      - family-names: van Tilborg
+        given-names: Derek
+    repository-code: https://github.com/molML/MoleculeACE
+  - type: article
+    title: Exposing the Limitations of Molecular Machine Learning with Activity Cliffs
+    authors:
+      - family-names: van Tilborg
+        given-names: Derek
+      - family-names: Alenicheva
+        given-names: Alisa
+      - family-names: Grisoni
+        given-names: Francesca
+    journal: Journal of Chemical Information and Modeling
+    year: 2022
+    volume: 62
+    issue: 23
+    start: 5938
+    end: 5951
+    doi: 10.1021/acs.jcim.2c01073
+  - type: article
+    title: 'Correction to "Exposing the Limitations of Molecular Machine Learning with Activity Cliffs"'
+    authors:
+      - family-names: van Tilborg
+        given-names: Derek
+      - family-names: Alenicheva
+        given-names: Alisa
+      - family-names: Grisoni
+        given-names: Francesca
+    journal: Journal of Chemical Information and Modeling
+    year: 2023
+    volume: 63
+    issue: 7
+    start: 2266
+    doi: 10.1021/acs.jcim.3c00423
+    scope: Early-stopping correction.
+  - type: article
+    title: 'Correction to "Exposing the Limitations of Molecular Machine Learning with Activity Cliffs"'
+    authors:
+      - family-names: van Tilborg
+        given-names: Derek
+      - family-names: Alenicheva
+        given-names: Alisa
+      - family-names: Grisoni
+        given-names: Francesca
+    journal: Journal of Chemical Information and Modeling
+    year: 2024
+    volume: 64
+    issue: 24
+    start: 9643
+    end: 9648
+    doi: 10.1021/acs.jcim.3c01576
+    scope: >-
+      Correction to benchmark data, splits and published results. Published
+      online on 18 October 2023 and in the issue dated 23 December 2024.

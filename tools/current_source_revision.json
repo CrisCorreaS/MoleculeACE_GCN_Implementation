@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "historical_campaign": "gcn_full_v1",
+  "sources": {
+    "code/MoleculeACE/benchmark/cliffs.py": {
+      "historical_sha256": "98a9e618416ec7609fc5249bfaf17d16c2662bd34239c209db5299216ab1b4d4",
+      "current_sha256_lf": "c474ca66f3c930a9081e031e35e77097a5171af48c4f40405e1908efab3c3f47",
+      "change": "Use the strict potency-ratio threshold in the pairwise cliff helper."
+    },
+    "code/MoleculeACE/benchmark/featurization.py": {
+      "historical_sha256": "88024df8a2f6e05921b3dd77aec64c782693cf424d2e8cdf0f04809c74320842",
+      "current_sha256_lf": "952cc4bd3f206eec39194bb44288f8f696865e3a044539d7fba54ee3064c385b",
+      "change": "Use six edge-feature columns for bondless graphs."
+    },
+    "code/MoleculeACE/benchmark/utils.py": {
+      "historical_sha256": "97883fe832104fb775a78fe1cc5feecf4e5b89109f8e507d5f8c42d0846ceead",
+      "current_sha256_lf": "808025f702b172b315586bcbed505142c32e86c60a6006d0618f603a68718a52",
+      "change": "Require an explicit cliff mask; remove recomputation from logarithmic responses."
+    },
+    "code/run_benchmark.py": {
+      "historical_sha256": "2718f6f5f168809359dc0afb5a0fd426dfe0739db23697247c977e8fab6d4b84",
+      "current_sha256_lf": "2d29b5c3642439eadb60f107c8fa98c5f00f57d2ef538f4be729ef8ac15986c9",
+      "change": "Verify resolved executing and imported scientific source paths before training outputs."
+    },
+    "code/task_status.py": {
+      "historical_sha256": "9e95844a538987c61911886200d245b6c4adc508ae1ea3920728b1d13b4b6da0",
+      "current_sha256_lf": "e3dfee2e7faa2392a1c1ed971a1222b623f6f1ef086da35beb6630f71212e83d",
+      "change": "Report expected evidence errors per task, continue listing and return a non-zero status."
+    }
+  }
+}

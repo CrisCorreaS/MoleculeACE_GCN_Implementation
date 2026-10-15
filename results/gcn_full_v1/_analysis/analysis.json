@@ -1,0 +1,8 @@
+{
+  "campaign": "gcn_full_v1",
+  "created": "2026-09-29T15:43:05.157150+00:00",
+  "manifest_sha256": "255fe47db5d143abe8d4ea4962aef0487101995d49cb6425b48ee3518a4e0b89",
+  "n_datasets": 30,
+  "published_provenance_verified": true,
+  "scientific": true
+}

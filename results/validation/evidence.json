@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "campaign": "gcn_full_v1",
+  "stage": "full",
+  "scientific": true,
+  "n_tasks": 150,
+  "n_datasets": 30,
+  "created": "2026-10-09T19:02:09.760079+00:00",
+  "source_root_is_project_root": false,
+  "source_evidence": {
+    "files": [
+      {
+        "path": "code/MoleculeACE/__init__.py",
+        "recorded_sha256": "88c1775b6d4b7770717f8c5afb4a44686441de16327cd3c26ab3dea2829a122b",
+        "byte_sha256": "88c1775b6d4b7770717f8c5afb4a44686441de16327cd3c26ab3dea2829a122b",
+        "lf_diagnostic_sha256": "88c1775b6d4b7770717f8c5afb4a44686441de16327cd3c26ab3dea2829a122b",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/__init__.py",
+        "recorded_sha256": "76528906544357d37404c84b2c5b118fc1eb1a6e7edd9cb378ceb512fc5a26a1",
+        "byte_sha256": "76528906544357d37404c84b2c5b118fc1eb1a6e7edd9cb378ceb512fc5a26a1",
+        "lf_diagnostic_sha256": "76528906544357d37404c84b2c5b118fc1eb1a6e7edd9cb378ceb512fc5a26a1",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/artifacts.py",
+        "recorded_sha256": "6a053b32de0fddd606ffb40afc50897e78c1e426c20dcd1b4c6845a3f2002012",
+        "byte_sha256": "6a053b32de0fddd606ffb40afc50897e78c1e426c20dcd1b4c6845a3f2002012",
+        "lf_diagnostic_sha256": "6a053b32de0fddd606ffb40afc50897e78c1e426c20dcd1b4c6845a3f2002012",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/campaign.py",
+        "recorded_sha256": "e9ab1d78a46cf7ed5a7e2edfa65ba9957fbf55f737b014116ac2a20305cd2082",
+        "byte_sha256": "e9ab1d78a46cf7ed5a7e2edfa65ba9957fbf55f737b014116ac2a20305cd2082",
+        "lf_diagnostic_sha256": "e9ab1d78a46cf7ed5a7e2edfa65ba9957fbf55f737b014116ac2a20305cd2082",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/cliffs.py",
+        "recorded_sha256": "98a9e618416ec7609fc5249bfaf17d16c2662bd34239c209db5299216ab1b4d4",
+        "byte_sha256": "98a9e618416ec7609fc5249bfaf17d16c2662bd34239c209db5299216ab1b4d4",
+        "lf_diagnostic_sha256": "98a9e618416ec7609fc5249bfaf17d16c2662bd34239c209db5299216ab1b4d4",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/const.py",
+        "recorded_sha256": "0ecab206334caef9406a75df1b919d15439331038da8e95a2046e2b5b0f8600d",
+        "byte_sha256": "0ecab206334caef9406a75df1b919d15439331038da8e95a2046e2b5b0f8600d",
+        "lf_diagnostic_sha256": "0ecab206334caef9406a75df1b919d15439331038da8e95a2046e2b5b0f8600d",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/featurization.py",
+        "recorded_sha256": "88024df8a2f6e05921b3dd77aec64c782693cf424d2e8cdf0f04809c74320842",
+        "byte_sha256": "88024df8a2f6e05921b3dd77aec64c782693cf424d2e8cdf0f04809c74320842",
+        "lf_diagnostic_sha256": "88024df8a2f6e05921b3dd77aec64c782693cf424d2e8cdf0f04809c74320842",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/gpu_allocation.py",
+        "recorded_sha256": "b094e27ca2cbf8c500cec3887d41773420bbbce3045d25bb845051cd3c3176e2",
+        "byte_sha256": "b094e27ca2cbf8c500cec3887d41773420bbbce3045d25bb845051cd3c3176e2",
+        "lf_diagnostic_sha256": "b094e27ca2cbf8c500cec3887d41773420bbbce3045d25bb845051cd3c3176e2",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/benchmark/utils.py",
+        "recorded_sha256": "97883fe832104fb775a78fe1cc5feecf4e5b89109f8e507d5f8c42d0846ceead",
+        "byte_sha256": "97883fe832104fb775a78fe1cc5feecf4e5b89109f8e507d5f8c42d0846ceead",
+        "lf_diagnostic_sha256": "97883fe832104fb775a78fe1cc5feecf4e5b89109f8e507d5f8c42d0846ceead",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/models/__init__.py",
+        "recorded_sha256": "8404924206055844c6945d63f9829940b206dcdf14d22227df8af5215b509a4e",
+        "byte_sha256": "8404924206055844c6945d63f9829940b206dcdf14d22227df8af5215b509a4e",
+        "lf_diagnostic_sha256": "8404924206055844c6945d63f9829940b206dcdf14d22227df8af5215b509a4e",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/models/gcn.py",
+        "recorded_sha256": "088c5a69fa3e729d1999bfe8f45608069fa35f4103bd9fd97acee4cb5dea2f9a",
+        "byte_sha256": "088c5a69fa3e729d1999bfe8f45608069fa35f4103bd9fd97acee4cb5dea2f9a",
+        "lf_diagnostic_sha256": "088c5a69fa3e729d1999bfe8f45608069fa35f4103bd9fd97acee4cb5dea2f9a",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/models/training.py",
+        "recorded_sha256": "0f69cb0ddd0885a284259dd59654890084f61d2a832933dce623d9f4d0fa17fc",
+        "byte_sha256": "0f69cb0ddd0885a284259dd59654890084f61d2a832933dce623d9f4d0fa17fc",
+        "lf_diagnostic_sha256": "0f69cb0ddd0885a284259dd59654890084f61d2a832933dce623d9f4d0fa17fc",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/MoleculeACE/models/utils.py",
+        "recorded_sha256": "ad8997977d2b5d00f508b331afd9f40fb3b42afb36382c479d89b560f9485d74",
+        "byte_sha256": "ad8997977d2b5d00f508b331afd9f40fb3b42afb36382c479d89b560f9485d74",
+        "lf_diagnostic_sha256": "ad8997977d2b5d00f508b331afd9f40fb3b42afb36382c479d89b560f9485d74",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/aggregate_results.py",
+        "recorded_sha256": "90fcadbdfd8bfcd79c4bb114572207394c6fda15402bcf38a0d39d45b5a28f0c",
+        "byte_sha256": "90fcadbdfd8bfcd79c4bb114572207394c6fda15402bcf38a0d39d45b5a28f0c",
+        "lf_diagnostic_sha256": "90fcadbdfd8bfcd79c4bb114572207394c6fda15402bcf38a0d39d45b5a28f0c",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/analyze_results.py",
+        "recorded_sha256": "d71103a763ab953e43cf37fac0f120649bf9e70baf3c25cb4851c8e605ee095f",
+        "byte_sha256": "d71103a763ab953e43cf37fac0f120649bf9e70baf3c25cb4851c8e605ee095f",
+        "lf_diagnostic_sha256": "d71103a763ab953e43cf37fac0f120649bf9e70baf3c25cb4851c8e605ee095f",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/env_check.py",
+        "recorded_sha256": "8bbeef1162684812ee522dbce5925badc1fc90f4a7572cc824934d9735a9eeb2",
+        "byte_sha256": "8bbeef1162684812ee522dbce5925badc1fc90f4a7572cc824934d9735a9eeb2",
+        "lf_diagnostic_sha256": "8bbeef1162684812ee522dbce5925badc1fc90f4a7572cc824934d9735a9eeb2",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/gpu_worker_child.py",
+        "recorded_sha256": "405f8607461d4d56c5369e170eee1c989eb596d57786b2aac4c14ed56756fbf3",
+        "byte_sha256": "405f8607461d4d56c5369e170eee1c989eb596d57786b2aac4c14ed56756fbf3",
+        "lf_diagnostic_sha256": "405f8607461d4d56c5369e170eee1c989eb596d57786b2aac4c14ed56756fbf3",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/make_manifest.py",
+        "recorded_sha256": "d8da333f0740fbc722326178ae6babddaed65f9be7d68b04b589fd0984069978",
+        "byte_sha256": "d8da333f0740fbc722326178ae6babddaed65f9be7d68b04b589fd0984069978",
+        "lf_diagnostic_sha256": "d8da333f0740fbc722326178ae6babddaed65f9be7d68b04b589fd0984069978",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/run_benchmark.py",
+        "recorded_sha256": "2718f6f5f168809359dc0afb5a0fd426dfe0739db23697247c977e8fab6d4b84",
+        "byte_sha256": "2718f6f5f168809359dc0afb5a0fd426dfe0739db23697247c977e8fab6d4b84",
+        "lf_diagnostic_sha256": "2718f6f5f168809359dc0afb5a0fd426dfe0739db23697247c977e8fab6d4b84",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/run_gpu_worker.py",
+        "recorded_sha256": "7061100d9db12cd0a6ef7ce125533afce3e5af7ddfdaa912637b13cf5a3f9e1f",
+        "byte_sha256": "7061100d9db12cd0a6ef7ce125533afce3e5af7ddfdaa912637b13cf5a3f9e1f",
+        "lf_diagnostic_sha256": "7061100d9db12cd0a6ef7ce125533afce3e5af7ddfdaa912637b13cf5a3f9e1f",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/task_status.py",
+        "recorded_sha256": "9e95844a538987c61911886200d245b6c4adc508ae1ea3920728b1d13b4b6da0",
+        "byte_sha256": "9e95844a538987c61911886200d245b6c4adc508ae1ea3920728b1d13b4b6da0",
+        "lf_diagnostic_sha256": "9e95844a538987c61911886200d245b6c4adc508ae1ea3920728b1d13b4b6da0",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/helpers.py",
+        "recorded_sha256": "bbdf0a6bd3127d81f5d087246cabd199e364b06c627cf2de9fcf5e2de4a17687",
+        "byte_sha256": "bbdf0a6bd3127d81f5d087246cabd199e364b06c627cf2de9fcf5e2de4a17687",
+        "lf_diagnostic_sha256": "bbdf0a6bd3127d81f5d087246cabd199e364b06c627cf2de9fcf5e2de4a17687",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/repeatability_diagnostic.py",
+        "recorded_sha256": "540d12ae19239b26238ffdf0b651c75ce9852109df3066e6f513eff18b3e10f7",
+        "byte_sha256": "540d12ae19239b26238ffdf0b651c75ce9852109df3066e6f513eff18b3e10f7",
+        "lf_diagnostic_sha256": "540d12ae19239b26238ffdf0b651c75ce9852109df3066e6f513eff18b3e10f7",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_aggregation.py",
+        "recorded_sha256": "66f3f708fd430155008b5b7922b930fdbc487c221ac16976093a621159b046b8",
+        "byte_sha256": "66f3f708fd430155008b5b7922b930fdbc487c221ac16976093a621159b046b8",
+        "lf_diagnostic_sha256": "66f3f708fd430155008b5b7922b930fdbc487c221ac16976093a621159b046b8",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_analysis.py",
+        "recorded_sha256": "34f341810ff638ff47a3d6afbd8bbeb61d16ce9e659fd1c06ba4d120f0cbfb0f",
+        "byte_sha256": "34f341810ff638ff47a3d6afbd8bbeb61d16ce9e659fd1c06ba4d120f0cbfb0f",
+        "lf_diagnostic_sha256": "34f341810ff638ff47a3d6afbd8bbeb61d16ce9e659fd1c06ba4d120f0cbfb0f",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_artifacts.py",
+        "recorded_sha256": "48c0d0d6923f119774bb9b4f5cb69004abcd2bbb39c31a1ec7a5f5f617730cce",
+        "byte_sha256": "48c0d0d6923f119774bb9b4f5cb69004abcd2bbb39c31a1ec7a5f5f617730cce",
+        "lf_diagnostic_sha256": "48c0d0d6923f119774bb9b4f5cb69004abcd2bbb39c31a1ec7a5f5f617730cce",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_batch_dispatch.py",
+        "recorded_sha256": "32bd0140587ebacf42132e494e2820def417457358e5014d253a4db96f9ee0c6",
+        "byte_sha256": "32bd0140587ebacf42132e494e2820def417457358e5014d253a4db96f9ee0c6",
+        "lf_diagnostic_sha256": "32bd0140587ebacf42132e494e2820def417457358e5014d253a4db96f9ee0c6",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_ciai_gcn.py",
+        "recorded_sha256": "8c4afb7d3383b311205e7a8700a37393303336611007fb3845cda5d6c3b79c7a",
+        "byte_sha256": "8c4afb7d3383b311205e7a8700a37393303336611007fb3845cda5d6c3b79c7a",
+        "lf_diagnostic_sha256": "8c4afb7d3383b311205e7a8700a37393303336611007fb3845cda5d6c3b79c7a",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_data.py",
+        "recorded_sha256": "6de7660071798f3afa0318408f0588563348bcf5c2ea1adb6fe3182da481fe20",
+        "byte_sha256": "6de7660071798f3afa0318408f0588563348bcf5c2ea1adb6fe3182da481fe20",
+        "lf_diagnostic_sha256": "6de7660071798f3afa0318408f0588563348bcf5c2ea1adb6fe3182da481fe20",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_gpu_allocation.py",
+        "recorded_sha256": "3f258585d58743a79fc713ed6423d27130e634885a52ebe2daf56467d74d02d6",
+        "byte_sha256": "3f258585d58743a79fc713ed6423d27130e634885a52ebe2daf56467d74d02d6",
+        "lf_diagnostic_sha256": "3f258585d58743a79fc713ed6423d27130e634885a52ebe2daf56467d74d02d6",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_gpu_workers.py",
+        "recorded_sha256": "57d542c992d7e69cce1cbd74e42129fc3005d201d997f64958e2320ebd9deb55",
+        "byte_sha256": "57d542c992d7e69cce1cbd74e42129fc3005d201d997f64958e2320ebd9deb55",
+        "lf_diagnostic_sha256": "57d542c992d7e69cce1cbd74e42129fc3005d201d997f64958e2320ebd9deb55",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_launcher.py",
+        "recorded_sha256": "07f78461863536af5088462fd025dd70becab8a0b1dd325c1f85a0e515317e7a",
+        "byte_sha256": "07f78461863536af5088462fd025dd70becab8a0b1dd325c1f85a0e515317e7a",
+        "lf_diagnostic_sha256": "07f78461863536af5088462fd025dd70becab8a0b1dd325c1f85a0e515317e7a",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_manifest.py",
+        "recorded_sha256": "593727aa7a4f7d75cf3599b1ae7412c0037a8bbe890963cd4004aa00bb6903b2",
+        "byte_sha256": "593727aa7a4f7d75cf3599b1ae7412c0037a8bbe890963cd4004aa00bb6903b2",
+        "lf_diagnostic_sha256": "593727aa7a4f7d75cf3599b1ae7412c0037a8bbe890963cd4004aa00bb6903b2",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_requeue.py",
+        "recorded_sha256": "48b032c164946867b1b49aa6c48714ed76c7144c3e9927100eea8b64f5975a58",
+        "byte_sha256": "48b032c164946867b1b49aa6c48714ed76c7144c3e9927100eea8b64f5975a58",
+        "lf_diagnostic_sha256": "48b032c164946867b1b49aa6c48714ed76c7144c3e9927100eea8b64f5975a58",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_scope_compat.py",
+        "recorded_sha256": "ad6dc646721332463e6f14bd10f457d394aeb8fd30c0f0820732de9edb008bec",
+        "byte_sha256": "ad6dc646721332463e6f14bd10f457d394aeb8fd30c0f0820732de9edb008bec",
+        "lf_diagnostic_sha256": "ad6dc646721332463e6f14bd10f457d394aeb8fd30c0f0820732de9edb008bec",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/tests/test_training_protocol.py",
+        "recorded_sha256": "b38b852aeeb2c4be97cc20bbb7942e0ef0e2c1fbcc327ce5001f3e57347b2181",
+        "byte_sha256": "b38b852aeeb2c4be97cc20bbb7942e0ef0e2c1fbcc327ce5001f3e57347b2181",
+        "lf_diagnostic_sha256": "b38b852aeeb2c4be97cc20bbb7942e0ef0e2c1fbcc327ce5001f3e57347b2181",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/verify_cliffs.py",
+        "recorded_sha256": "fc48935842f37a6caeebb2e1eb6d9e2dad1a50b650229ee11e9b002e8710b2ff",
+        "byte_sha256": "fc48935842f37a6caeebb2e1eb6d9e2dad1a50b650229ee11e9b002e8710b2ff",
+        "lf_diagnostic_sha256": "fc48935842f37a6caeebb2e1eb6d9e2dad1a50b650229ee11e9b002e8710b2ff",
+        "status": "byte_match"
+      },
+      {
+        "path": "code/verify_datasets.py",
+        "recorded_sha256": "9d40611b6f57fe33f127ecd4e453c9ca6f4c6f2ade1264444f9208dbd33794ff",
+        "byte_sha256": "9d40611b6f57fe33f127ecd4e453c9ca6f4c6f2ade1264444f9208dbd33794ff",
+        "lf_diagnostic_sha256": "9d40611b6f57fe33f127ecd4e453c9ca6f4c6f2ade1264444f9208dbd33794ff",
+        "status": "byte_match"
+      }
+    ],
+    "n_files": 38,
+    "byte_matches": 38,
+    "lf_only_matches": 0,
+    "policy": "Exact bytes checked first; LF hashes are diagnostic only. No files are normalised."
+  },
+  "input_sha256": {
+    "results/gcn_full_v1/_summary/summary.json": "5c54307690a883b315cbea1d21d1b75f0aa663402d1e39149159a43cdc46392e",
+    "results/gcn_full_v1/_analysis/analysis.json": "4162e8bbd7dc85507aef6cedbee76b46f396457b8dad3166dfde097671fa0331",
+    "jobs/manifest_full.csv": "255fe47db5d143abe8d4ea4962aef0487101995d49cb6425b48ee3518a4e0b89",
+    "results/gcn_full_v1/_summary/per_fold.csv": "8f7bd8acdcdcca612dc5bdfdf93069bc3e295f616b821cbdb425d1a23c117844",
+    "results/gcn_full_v1/_summary/per_dataset.csv": "377e5cdc6fc7c4a2821787d88229aebb8a393e60e6f69b8a2502f4dd69abec1f",
+    "results/gcn_full_v1/_analysis/comparison.csv": "fb053e8726854f0ebb2c00adacdc9bc28aa25cc47f9bdf3473ef1ef3c882a638",
+    "results/gcn_full_v1/_analysis/datasets_vs_table1.csv": "b2c87b1563935892965b36921f41a8c02cf2bd486d0b5332705265b7217e4c9b",
+    "references/corrected_table1.csv": "068d6375448fe0d265e1861bef41e313ee4160b342786ef749e7983cd5d31986",
+    "references/published/MoleculeACE_results.csv": "eaf8551af546afb3fff86e6d06529e52d7321b19ed51da93482776dc4696ef0f",
+    "references/published/provenance.json": "7860a98c94f9f2e5e0b2514247d94170e96a464f9efae8c225e6cdfe465cc4c7"
+  },
+  "task_record_sha256": {
+    "results/gcn_full_v1/CHEMBL4203_Ki/fold_0/task_record.json": "0081a141c30f686c7d8f50c39ab33cd43f086c7521267a17d462759cf46a44d4",
+    "results/gcn_full_v1/CHEMBL4203_Ki/fold_1/task_record.json": "e827494bf71a76a60e98ecbe2f61991d7e8e7927d8ca81dccc0bdc1a030795e9",
+    "results/gcn_full_v1/CHEMBL4203_Ki/fold_2/task_record.json": "25026ede9c79d948c2423a717312dca2c9310d7e8e73f172b19b05393af5b2c2",
+    "results/gcn_full_v1/CHEMBL4203_Ki/fold_3/task_record.json": "1564fd75de7b67ea2f1b36dc6e0141b88e29cbf979033288f4842576b30cc3e5",
+    "results/gcn_full_v1/CHEMBL4203_Ki/fold_4/task_record.json": "51e5ee0a77df804f6a04905a8ca91ad66761ee71bd64e78f6e4b924f399dba38",
+    "results/gcn_full_v1/CHEMBL2034_Ki/fold_0/task_record.json": "dd42e71137818bb382ee1273fd484d56f0e391c7775f7175de60b1e57b5b587b",
+    "results/gcn_full_v1/CHEMBL2034_Ki/fold_1/task_record.json": "eb653225b592ee545d737ac3f119309a1fcc80b718ca6a2d888147267734e286",
+    "results/gcn_full_v1/CHEMBL2034_Ki/fold_2/task_record.json": "726047ef6af787cad142be166e7898a51ffd91b22ee09fc4a0f1db78a5429302",
+    "results/gcn_full_v1/CHEMBL2034_Ki/fold_3/task_record.json": "6d8058f96cfe0bec370e452564a352edb9ac413fdfa101590e0ac134be26f3b1",
+    "results/gcn_full_v1/CHEMBL2034_Ki/fold_4/task_record.json": "4630657e72655b48a9069622cb9304573706dcf8fd0b65cbb65981d4c7a30944",
+    "results/gcn_full_v1/CHEMBL233_Ki/fold_0/task_record.json": "f8db0e9c0fdb8b96d8305160bcba23418cb953c4c58eddb1d9cbe52f6e24004c",
+    "results/gcn_full_v1/CHEMBL233_Ki/fold_1/task_record.json": "2d16add3caffd5bc981651989793ff2a476f218d5c11fcf2c89ed3e77a42f974",
+    "results/gcn_full_v1/CHEMBL233_Ki/fold_2/task_record.json": "f7fac2aa5e9254c620461f4c307c73d71ab719ddd3f7a716b378dd724cb80948",
+    "results/gcn_full_v1/CHEMBL233_Ki/fold_3/task_record.json": "f016b0248bd34361e52ec1bb6fd70cfbd479335d1f82f642ec77cedd1144a06d",
+    "results/gcn_full_v1/CHEMBL233_Ki/fold_4/task_record.json": "e9dbc6f6e09c49c3b205594f92f0cb06c7cab5ae0269cb8a73dde4fe14d33ff8",
+    "results/gcn_full_v1/CHEMBL4616_EC50/fold_0/task_record.json": "eca527c57561b308f7c4cb6c32241784919329c122108142f2bbf8d829c336a3",
+    "results/gcn_full_v1/CHEMBL4616_EC50/fold_1/task_record.json": "e26e76ae8311eb4815e8433968e3dba99637e17db6345d499c25a0cf6d445e8a",
+    "results/gcn_full_v1/CHEMBL4616_EC50/fold_2/task_record.json": "94bec2d96db66e036b01532676c39f727445a769ecb9f348253b24638c5b454d",
+    "results/gcn_full_v1/CHEMBL4616_EC50/fold_3/task_record.json": "d16ede5e30170a7efa949833a6f1803d0d65d78a3d1fdc2bc8ea189d69ca68cf",
+    "results/gcn_full_v1/CHEMBL4616_EC50/fold_4/task_record.json": "3aa1eefd1f8c3fa87ded3d0b191b510b39707fda175d320736378ad7b83379ea",
+    "results/gcn_full_v1/CHEMBL287_Ki/fold_0/task_record.json": "91ad6a212c815faa6c3c71fecc7a8428388a0ff1ec7d2f92903d8cf2caf8dc43",
+    "results/gcn_full_v1/CHEMBL287_Ki/fold_1/task_record.json": "66e241cac5b22eb51ec1e41331020641e3f06d1dacf51243a0eddae952cbe469",
+    "results/gcn_full_v1/CHEMBL287_Ki/fold_2/task_record.json": "fe1b05effdbe832d8627ffabb6ca9bfad69209e84d43efa3f5c19dd33cf4f79f",
+    "results/gcn_full_v1/CHEMBL287_Ki/fold_3/task_record.json": "2189773464f651ba0382ae60950d577e0814ccb75fa268f24f86d983a2b46458",
+    "results/gcn_full_v1/CHEMBL287_Ki/fold_4/task_record.json": "72934406658a4a7ee6c21325a691cf564d6bc2b0a323327e3faa895049c610a2",
+    "results/gcn_full_v1/CHEMBL218_EC50/fold_0/task_record.json": "ba222da8714f81b2604cd7913974b36d9be763dcb29236924b7dc890f074c5c6",
+    "results/gcn_full_v1/CHEMBL218_EC50/fold_1/task_record.json": "0b66b3c93e53ba6307f5f7ef0e4465c8ed35d553f52d4a7163fc57afe8465374",
+    "results/gcn_full_v1/CHEMBL218_EC50/fold_2/task_record.json": "a44ce3287392bd8c5bc1bcd13f17f12c4b576c53787e58b9b1932fc8dd87ee83",
+    "results/gcn_full_v1/CHEMBL218_EC50/fold_3/task_record.json": "00ace2d4f65f63381be54e819bff640a31de2bd530d26080b984172fda8b30cc",
+    "results/gcn_full_v1/CHEMBL218_EC50/fold_4/task_record.json": "7f68dbf84d19d8bdf7cc2acf51b2cde6d6aafbfaa9f7d65c8868d59db737cf7a",
+    "results/gcn_full_v1/CHEMBL264_Ki/fold_0/task_record.json": "744908399387dfbb817e5d4bdb2c0669405bed1db6b90901e62f1224727b3e27",
+    "results/gcn_full_v1/CHEMBL264_Ki/fold_1/task_record.json": "a398ecdc7d6b2cc060db8d7fb105631a28b3101e66bc55f47b36a94f30793512",
+    "results/gcn_full_v1/CHEMBL264_Ki/fold_2/task_record.json": "108e930f5982340463f7335007a76076a49dc0e0171e7cc51ec6bbd930f3a1b1",
+    "results/gcn_full_v1/CHEMBL264_Ki/fold_3/task_record.json": "b03302cd7e8b7d91199283d79b2ebac9b4519b8e5924fe2dfdc8a584e81a8740",
+    "results/gcn_full_v1/CHEMBL264_Ki/fold_4/task_record.json": "d98e9e31debfbb54ad80e34416018b86b482dc43a1ba1106de4dadc312a608c8",
+    "results/gcn_full_v1/CHEMBL219_Ki/fold_0/task_record.json": "f0d2ac3ec4a9314f82dbdf4f709df6f0a94af03098bfbdd9294abbc651f48848",
+    "results/gcn_full_v1/CHEMBL219_Ki/fold_1/task_record.json": "3a0f39d2e7d535531f97b86346534c014e19b6fe97e8ebbb310d910ad1d42d61",
+    "results/gcn_full_v1/CHEMBL219_Ki/fold_2/task_record.json": "72ffa8ce77b1231eaa377f65013be3c3ac19558174ddbc646186ccd9a5dc029f",
+    "results/gcn_full_v1/CHEMBL219_Ki/fold_3/task_record.json": "bb70060a5873a050d6b4f47a85dbe8968e8d8e92a179ebf41e0da92f10c813b9",
+    "results/gcn_full_v1/CHEMBL219_Ki/fold_4/task_record.json": "369ea8a0469a1024d0c1f0da23574b50bf3f475654f1538bb88c8ef3931d8433",
+    "results/gcn_full_v1/CHEMBL2835_Ki/fold_0/task_record.json": "552d45b61b7a84341bb54cb9f1cd1931a87c6d9a9a2cd9d13359ee40cbead2f3",
+    "results/gcn_full_v1/CHEMBL2835_Ki/fold_1/task_record.json": "942159a47ee22d850aeddd307dc01efc405c8825be6b1e93462407bf993ae507",
+    "results/gcn_full_v1/CHEMBL2835_Ki/fold_2/task_record.json": "45c58e612e0e210705fc4bb28a913a521bb23484935c1d0e44790292569e0004",
+    "results/gcn_full_v1/CHEMBL2835_Ki/fold_3/task_record.json": "805b355a5012a9925b922a98f07ec54b25ae25e953a5b80261016f5952e3cf3d",
+    "results/gcn_full_v1/CHEMBL2835_Ki/fold_4/task_record.json": "be0bae9d9d0f3222e17f0d021297d7006a1fe722bcdbc69a8468ead14cee2a09",
+    "results/gcn_full_v1/CHEMBL2147_Ki/fold_0/task_record.json": "d4770602daec1db6593c13687ab2184db8493d6b796b7890d3d9130de045b710",
+    "results/gcn_full_v1/CHEMBL2147_Ki/fold_1/task_record.json": "0b4335cf826716154bfafef67e010cf3c5bf0e0b742870a2090675b6181a3250",
+    "results/gcn_full_v1/CHEMBL2147_Ki/fold_2/task_record.json": "a9244dfc51ae0c0abc5df02482bb8b01d0b7021c9a0a9558683cf0fce3c4a00b",
+    "results/gcn_full_v1/CHEMBL2147_Ki/fold_3/task_record.json": "778abfaae366fc1faa48b094cb6bfd445108ba79660939af0f9a927814c880cb",
+    "results/gcn_full_v1/CHEMBL2147_Ki/fold_4/task_record.json": "53157639f847fcfa9c0d256e4aa3cf4e4426a30b68e92f017d2594b172990497",
+    "results/gcn_full_v1/CHEMBL231_Ki/fold_0/task_record.json": "186eb3a0eb9411f5b1ef81e079a3fa81ab64cbe12cae71400318527aef727817",
+    "results/gcn_full_v1/CHEMBL231_Ki/fold_1/task_record.json": "a7771d84c9da8aea3dd795e40410aa76b812e43cd4b187cecdb8bf835def1172",
+    "results/gcn_full_v1/CHEMBL231_Ki/fold_2/task_record.json": "3aa98c96baabbfa207ee849079fa8a385c668e8d4c35cc9217e2bfecfc66e064",
+    "results/gcn_full_v1/CHEMBL231_Ki/fold_3/task_record.json": "a9107995f0edd979dda87733e3840ec5170ae1d9c19939ccff6e1ebec1773926",
+    "results/gcn_full_v1/CHEMBL231_Ki/fold_4/task_record.json": "20028446af66258776262878ccc5c3a48eafcd376f3ed74917ec607297052cc9",
+    "results/gcn_full_v1/CHEMBL3979_EC50/fold_0/task_record.json": "a382a63acb781cd868502b68919d2b18dd259632b90160cf32951bdbc6285496",
+    "results/gcn_full_v1/CHEMBL3979_EC50/fold_1/task_record.json": "2099382de082a2f20dd2eb962c4f4e85f48909a70b18a190ea044e584073f993",
+    "results/gcn_full_v1/CHEMBL3979_EC50/fold_2/task_record.json": "29acd2c6e6cbacf92ef8df34fee8ca1f48207a93a677166f9912e1d0c69d8476",
+    "results/gcn_full_v1/CHEMBL3979_EC50/fold_3/task_record.json": "9a8be24c99a39f1328d261ffc875504f7c4b29700582bf2c596a3449b98a04e8",
+    "results/gcn_full_v1/CHEMBL3979_EC50/fold_4/task_record.json": "fe018dee6e563f895ef36ec2cccdd398057634dfefd8fa72e919163a39947a52",
+    "results/gcn_full_v1/CHEMBL237_EC50/fold_0/task_record.json": "6ef88750d70e07b132715bcc39878624baf7e8887abfadc1045af7f3f199a4ab",
+    "results/gcn_full_v1/CHEMBL237_EC50/fold_1/task_record.json": "b75113582b8822a85706e22c001cbe14e1f443819ae6bc11184d66af192ad43a",
+    "results/gcn_full_v1/CHEMBL237_EC50/fold_2/task_record.json": "bd5517623baa7511de22b9c496c5be89f9acff1673b376a4d26b9afc8333e2b7",
+    "results/gcn_full_v1/CHEMBL237_EC50/fold_3/task_record.json": "8d7d90e74671611254a272daefddfd7cc9a264c5826ef49cbb991087294fe022",
+    "results/gcn_full_v1/CHEMBL237_EC50/fold_4/task_record.json": "626a3e632c7bd07b7ae0a138c50a7f88d490a8d6a348884baa1998174ebb1492",
+    "results/gcn_full_v1/CHEMBL244_Ki/fold_0/task_record.json": "adf55a9d3fff6f2694b4d817e8aa5f8e699b1391d0a7c21c81695e6ebee9b65e",
+    "results/gcn_full_v1/CHEMBL244_Ki/fold_1/task_record.json": "f8167d5bb78ffc00cfe5038a9073af8070bf6387c761078a092942f0ceea33be",
+    "results/gcn_full_v1/CHEMBL244_Ki/fold_2/task_record.json": "e3ee619e5d45204e955cdbb53da463c8646166cc7d6ca0d4b6a18c2c83d0cb80",
+    "results/gcn_full_v1/CHEMBL244_Ki/fold_3/task_record.json": "36cf23a694d8a86c21c8ed4193407a031fc6537adcf401e85cb323554031ec39",
+    "results/gcn_full_v1/CHEMBL244_Ki/fold_4/task_record.json": "b38fe4e8ae5d94f7206773a6f474dbbea727b2cda7f152ae51c6930d44b679f6",
+    "results/gcn_full_v1/CHEMBL4792_Ki/fold_0/task_record.json": "27e4624b859db0bb2fec14b2c60fdd2b74ca3c75892659dcdba95350cee824df",
+    "results/gcn_full_v1/CHEMBL4792_Ki/fold_1/task_record.json": "39690ee719d834cf2937b302d2e15c658e0db841c681d463a6eb52e8a0a19d88",
+    "results/gcn_full_v1/CHEMBL4792_Ki/fold_2/task_record.json": "6a941d5d01afc76305efdc1a1234bf5488287bfa48b003aff4d4fe161129b4e3",
+    "results/gcn_full_v1/CHEMBL4792_Ki/fold_3/task_record.json": "5ccfbe2d79cf846e65e2942b9b37dad1169892c780124d7db2a7ca4ec38758ab",
+    "results/gcn_full_v1/CHEMBL4792_Ki/fold_4/task_record.json": "cd2a38e8e72355fd1ac8f4d855e65a2b38e888553b0c8d0f5fad42ab0213a549",
+    "results/gcn_full_v1/CHEMBL1871_Ki/fold_0/task_record.json": "7a5add168357ea0b8ae6a3e8fa10a2a57272f53e73919cab8e7b995d4ab76024",
+    "results/gcn_full_v1/CHEMBL1871_Ki/fold_1/task_record.json": "3f859d8f8df09814fa8a8858ad345beaad84f483803b5b7c364785cce20b8b9e",
+    "results/gcn_full_v1/CHEMBL1871_Ki/fold_2/task_record.json": "3850060ef82a44368868451b9643324e9c7fb02105d25c629f97337bd7a5ab82",
+    "results/gcn_full_v1/CHEMBL1871_Ki/fold_3/task_record.json": "c312d264b2fc6f33cef8f10183557803e4e47f15c3eb4405eb1f147c89edca0d",
+    "results/gcn_full_v1/CHEMBL1871_Ki/fold_4/task_record.json": "902a4cd54c5a6db3e686f0a5a8278d2b11e1ec776c7a51ea4407f7d0c321f2ef",
+    "results/gcn_full_v1/CHEMBL237_Ki/fold_0/task_record.json": "9923af7260204a789619797a5adac7dbaf097957554b3d2d1bfba3c3f052a759",
+    "results/gcn_full_v1/CHEMBL237_Ki/fold_1/task_record.json": "42e65b85677dab386ad501298967be6138a2eabf31fcf10a1bdf154de7a356c5",
+    "results/gcn_full_v1/CHEMBL237_Ki/fold_2/task_record.json": "a4aad2548c3403c1c8fa04420541064c0f4ea1454c896b79211c2aee4de2f2e3",
+    "results/gcn_full_v1/CHEMBL237_Ki/fold_3/task_record.json": "9b86436130d484d9bd6dd9f8cd2cdc9595961cd8415badc6dd360ec8e353cde2",
+    "results/gcn_full_v1/CHEMBL237_Ki/fold_4/task_record.json": "243376c9e35460e064a4295d55fbae88825dcb3a6b942003bd7a40eb5134da33",
+    "results/gcn_full_v1/CHEMBL262_Ki/fold_0/task_record.json": "a7adb1d4b13db1beb1a04a505be06d4753f72a052a8e40d0f03e1a3de35967bb",
+    "results/gcn_full_v1/CHEMBL262_Ki/fold_1/task_record.json": "b229652cc7e3e1d20e421cddd94ab8bc1ebfb8fe4cbec76865d5f1ddc144eed8",
+    "results/gcn_full_v1/CHEMBL262_Ki/fold_2/task_record.json": "13633b97d5159c056a5d45b66ac4ef41306a47193f7bf74b774a83331c459eda",
+    "results/gcn_full_v1/CHEMBL262_Ki/fold_3/task_record.json": "8d89defae6f9128e74bf2384c7972db38ef89bcb547b283a0fdb214585f11fe3",
+    "results/gcn_full_v1/CHEMBL262_Ki/fold_4/task_record.json": "a7dcaaf084913673324840d3fcc7f1310d323c4b0176d2c572fb69831eb59263",
+    "results/gcn_full_v1/CHEMBL2047_EC50/fold_0/task_record.json": "220aec607f667e8b0ffce7d6b38bd7a2e7c0e54873432475434e9d2267b92034",
+    "results/gcn_full_v1/CHEMBL2047_EC50/fold_1/task_record.json": "9d2b12f029b6836394aa1c91b3de41efc201d1019d841b49f21ca54b9e6c651f",
+    "results/gcn_full_v1/CHEMBL2047_EC50/fold_2/task_record.json": "1e41f89ef73bd28204020c32688f97554ba0fe0c7ace1e57c6981f4cfa924d8d",
+    "results/gcn_full_v1/CHEMBL2047_EC50/fold_3/task_record.json": "af6224c2f3e6d27737fa24168e9da2c1b31753c2398cea013997a42fbe9ed9cb",
+    "results/gcn_full_v1/CHEMBL2047_EC50/fold_4/task_record.json": "cc17cb8082c81ad2d6773c9154b1a398cbe702a22ed8b74de8478adc0a539303",
+    "results/gcn_full_v1/CHEMBL239_EC50/fold_0/task_record.json": "5e623d1b1226cfa54b938f4aefed6adc2df2c613e41a205fe881c773d896714e",
+    "results/gcn_full_v1/CHEMBL239_EC50/fold_1/task_record.json": "62acf3e348da93ae0a4a108d967a731d00e63be1abe51d90f3b6d9015958a24c",
+    "results/gcn_full_v1/CHEMBL239_EC50/fold_2/task_record.json": "2a740063d0213f6d382e3b9c78bdd347c465fc3840d0cbe00bb9ae71b6c261f3",
+    "results/gcn_full_v1/CHEMBL239_EC50/fold_3/task_record.json": "d80eb4a319b30d1234561b5444fe960e2bf18776b22c55dca5e62c2fb27f2849",
+    "results/gcn_full_v1/CHEMBL239_EC50/fold_4/task_record.json": "ad1d23513b4cbbe477ae18f6b47ab6c84e8f0f206abb63cb025d58b3c8203e59",
+    "results/gcn_full_v1/CHEMBL2971_Ki/fold_0/task_record.json": "2b16c3632795341e210ea5ecfe65d0d21196e674fbee3e178592dd10ac83d178",
+    "results/gcn_full_v1/CHEMBL2971_Ki/fold_1/task_record.json": "da259cab38fc00f542db65d71a6ce80c56e9c17404d5c0614b3cffeb4c7e9951",
+    "results/gcn_full_v1/CHEMBL2971_Ki/fold_2/task_record.json": "134aaecdada774e4a84206bb97d7e9ef06f3ce4eab036f00c8ec20e0c0f3e70a",
+    "results/gcn_full_v1/CHEMBL2971_Ki/fold_3/task_record.json": "174219d0c3c73ee000de999e42099b11a00c5736d21e73dae727265d525f2bd7",
+    "results/gcn_full_v1/CHEMBL2971_Ki/fold_4/task_record.json": "ccbd68219dd8699d5c27babcad5a4fdb504949057cc1e37401ca82d35912e4be",
+    "results/gcn_full_v1/CHEMBL204_Ki/fold_0/task_record.json": "f58a5c48adf47288f6fa7a42eb334d1d86b725ef62024ec39b8e870e4ad2d1c0",
+    "results/gcn_full_v1/CHEMBL204_Ki/fold_1/task_record.json": "7595e11270aa86c59403a5906820d2e87f320a449a6e361aea6a24d8ce154f1e",
+    "results/gcn_full_v1/CHEMBL204_Ki/fold_2/task_record.json": "147021b33018f819cd2179e03a5721b63aaecdb3e4c6f159e271ea8f2abbf3f5",
+    "results/gcn_full_v1/CHEMBL204_Ki/fold_3/task_record.json": "79424997f9ee86a85eeb9e43a96e0d2950aa24cdf8e299593e56c911689d792f",
+    "results/gcn_full_v1/CHEMBL204_Ki/fold_4/task_record.json": "e7ab13302bec0010b5708cdf77ea7870489b657e44fd9e49bcaaa7ee5baf7f2b",
+    "results/gcn_full_v1/CHEMBL214_Ki/fold_0/task_record.json": "b30b03fb0a70ae799f90bf339c8ec8b8f7dfdca8592016de8d4c30e33d147155",
+    "results/gcn_full_v1/CHEMBL214_Ki/fold_1/task_record.json": "598411c6fa7dcb530600debafbccffcbc4d830047694198f22978cb78facf0f7",
+    "results/gcn_full_v1/CHEMBL214_Ki/fold_2/task_record.json": "8415a09f07e75a7d2fb8cef06f31e837cfbf7733780200ac5201e14d2efa837b",
+    "results/gcn_full_v1/CHEMBL214_Ki/fold_3/task_record.json": "6c1e44f9ab03b11d15887b95396d89984bd3f342380e5b69bb2479b2281508fb",
+    "results/gcn_full_v1/CHEMBL214_Ki/fold_4/task_record.json": "2063c24d2581ed0464a4ab6ff232806158e1df347699facdf1ad199f906bcbde",
+    "results/gcn_full_v1/CHEMBL1862_Ki/fold_0/task_record.json": "3ab7eb19ce36ea903480e109711462e9e5a9cc0e58228184c7047f7689a50568",
+    "results/gcn_full_v1/CHEMBL1862_Ki/fold_1/task_record.json": "559fe3d208add42958cf89e920f87f8a086b50ac249cb37460355d3c26d31ba1",
+    "results/gcn_full_v1/CHEMBL1862_Ki/fold_2/task_record.json": "edf71875c938fd4745e584bae4d267ba6a0a302005acfa4376ada01c075a453d",
+    "results/gcn_full_v1/CHEMBL1862_Ki/fold_3/task_record.json": "980094fc3d4c25c7bfd70b61d55a196f946aacc4e28665f9e610dd2da8a73c49",
+    "results/gcn_full_v1/CHEMBL1862_Ki/fold_4/task_record.json": "646cc0cfbdeb268fcf64b6904fff910f8c28f36d06657387add78fb4ae408b02",
+    "results/gcn_full_v1/CHEMBL234_Ki/fold_0/task_record.json": "d8e665f65d02706d49d6177abb6c45c78cda17e069850814f246eeddeded3af7",
+    "results/gcn_full_v1/CHEMBL234_Ki/fold_1/task_record.json": "0d66144a300474a3d4668fdb994812d1d0529fb1147090b5c1eefc6a7a23d2c9",
+    "results/gcn_full_v1/CHEMBL234_Ki/fold_2/task_record.json": "aceda09db4c1291c61a2fb2ef32c291e891043df7b39c6463647afb5ca5ac8ab",
+    "results/gcn_full_v1/CHEMBL234_Ki/fold_3/task_record.json": "2e18e824a62d87e18214f8121d21f93bdc9f94b6b188d3787869e5f56d2fc147",
+    "results/gcn_full_v1/CHEMBL234_Ki/fold_4/task_record.json": "8dd1f2fdc858514f68aed70f373537c21cfbebdbb2c1bd5e3e9a96444645ab87",
+    "results/gcn_full_v1/CHEMBL238_Ki/fold_0/task_record.json": "650cc5660a34bc0c50bc788a1d2a6de218bcdd3670ff6d685f9c0e46859e9dfa",
+    "results/gcn_full_v1/CHEMBL238_Ki/fold_1/task_record.json": "098e2bb1555d71de4c1d3e8d100471adfff334220486f79005653bf55ffd8d47",
+    "results/gcn_full_v1/CHEMBL238_Ki/fold_2/task_record.json": "77ca5a245a6464f4e553dedb335bb2471b2ffdafcdeca526b88b6c5315747071",
+    "results/gcn_full_v1/CHEMBL238_Ki/fold_3/task_record.json": "802e441593e70c3a3e5ed0f82fc155abcf7bf6836f3eeb87196062afb4051f7c",
+    "results/gcn_full_v1/CHEMBL238_Ki/fold_4/task_record.json": "1f80a30c92107953704695f27c47d27e79a11e18abe07657c9c2a97628759ef0",
+    "results/gcn_full_v1/CHEMBL235_EC50/fold_0/task_record.json": "7b60957887b5ed8ae9918d55596281bf2d87c1a0ca66ae7a0eb1704182d85080",
+    "results/gcn_full_v1/CHEMBL235_EC50/fold_1/task_record.json": "80434e9901360ba8881cd436d9e67ac13186453de5a23dd1a7e1e86c5380e6fa",
+    "results/gcn_full_v1/CHEMBL235_EC50/fold_2/task_record.json": "4619c2adccacfe4da8af9e0362156adde030ff04291d0c618a9c43aeb24dac5e",
+    "results/gcn_full_v1/CHEMBL235_EC50/fold_3/task_record.json": "388c56267a6356342dc47e69a2e21dca49a1219a58d11cca9dfe174ce823875f",
+    "results/gcn_full_v1/CHEMBL235_EC50/fold_4/task_record.json": "16a3937b994f8df2a5f3fa1fe16be5ebea1ec80c4282c32e591a15643b61de4d",
+    "results/gcn_full_v1/CHEMBL4005_Ki/fold_0/task_record.json": "22794b0c4cdc1f9652a20302af22629d185a3bc692a4e9825a0d45ab33186ae2",
+    "results/gcn_full_v1/CHEMBL4005_Ki/fold_1/task_record.json": "5444697cb6da8835876703a5ecc6b6aae35584e35f017a855a475e2504c95391",
+    "results/gcn_full_v1/CHEMBL4005_Ki/fold_2/task_record.json": "2f3355c6e1ec280018a6f78a3c2b412bab9501a357d6b56ae0e4eb5fc625fcd0",
+    "results/gcn_full_v1/CHEMBL4005_Ki/fold_3/task_record.json": "3de8adbe48750a3028a108bfb1ea7e50f1bdaadc2a12506d20778ff77d413bef",
+    "results/gcn_full_v1/CHEMBL4005_Ki/fold_4/task_record.json": "66ff398b7d773f89f26c3289553761b569717ba0a3af87159e91b25bf82ff173",
+    "results/gcn_full_v1/CHEMBL236_Ki/fold_0/task_record.json": "6f872e5b8d2a4f04c2b7eb24002a7a4552757a161f943ea8cff8341cc54a2f90",
+    "results/gcn_full_v1/CHEMBL236_Ki/fold_1/task_record.json": "5f02bb384bce0ad5f1e32329d1f1d856f44b357363ab7225faa7505fe7dfa497",
+    "results/gcn_full_v1/CHEMBL236_Ki/fold_2/task_record.json": "926e1561a92e0cdef2ac6051b577080329cc5dba2f4bda934be9e6d92ba0bac8",
+    "results/gcn_full_v1/CHEMBL236_Ki/fold_3/task_record.json": "75f13771786496f395b5d6cb60ec66c36448c441182af20b321574c255ac4545",
+    "results/gcn_full_v1/CHEMBL236_Ki/fold_4/task_record.json": "09c670745c47af0916980bb2d7d4005c740568c97aeff23a0342b0fbdd56c792",
+    "results/gcn_full_v1/CHEMBL228_Ki/fold_0/task_record.json": "16a4de310dc6e19b7f33a14d8dca6450842a4a053ca05e407b977f4fdf3c3347",
+    "results/gcn_full_v1/CHEMBL228_Ki/fold_1/task_record.json": "79cb9a15edb3921b7b605649ccc8b66a0aedd209a14ed0f057b00dc5c1202c64",
+    "results/gcn_full_v1/CHEMBL228_Ki/fold_2/task_record.json": "870405c3f3befaa08a6a4c73436888d63ab52b2da01d2b56b15424d3a0cda011",
+    "results/gcn_full_v1/CHEMBL228_Ki/fold_3/task_record.json": "ff5a0cb79be4f554ab285371e1c501e34cbeef775300f97929ffc8cdf2b00a7a",
+    "results/gcn_full_v1/CHEMBL228_Ki/fold_4/task_record.json": "e5132cb4c4295dd55aaebcc4b75ef279ad5a322cfbfe1011cebeb51c5ae3ba05"
+  },
+  "checks": [
+    "manifest and input hashes",
+    "all task artefact hashes",
+    "prediction identities and recalculated official/secondary metrics",
+    "early-stopping histories and campaign provenance consistency",
+    "effective configuration hashes",
+    "saved summary hashes",
+    "all saved summary/comparison table values",
+    "published reference provenance",
+    "corrected Table 1",
+    "historical source identity"
+  ],
+  "table_float_tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-12
+  },
+  "limitations": [
+    "Checkpoints are hashed, never deserialised or executed.",
+    "This validates saved evidence; it does not repeat training or inference.",
+    "Fold SD is descriptive; folds share the test set and are not independent seeds."
+  ]
+}

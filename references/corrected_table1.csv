@@ -1,0 +1,31 @@
+dataset,target,n,n_test,percent_cliff,percent_test_cliff
+CHEMBL1871_Ki,Androgen Receptor,659,134,25,24
+CHEMBL218_EC50,Cannabinoid receptor 1,1031,208,36,37
+CHEMBL244_Ki,Coagulation factor X,3097,621,48,48
+CHEMBL236_Ki,Delta opioid receptor,2598,521,39,39
+CHEMBL234_Ki,Dopamine D3 receptor,3657,733,44,44
+CHEMBL219_Ki,Dopamine D4 receptor,1865,374,40,40
+CHEMBL238_Ki,Dopamine transporter,1052,213,25,26
+CHEMBL4203_Ki,Dual specificity protein kinase CLK4,731,149,9,9
+CHEMBL2047_EC50,Farnesoid X receptor,631,128,39,39
+CHEMBL4616_EC50,Ghrelin receptor,682,139,52,53
+CHEMBL2034_Ki,Glucocorticoid receptor,750,152,33,34
+CHEMBL262_Ki,Glycogen synthase kinase-3 beta,856,173,19,18
+CHEMBL231_Ki,Histamine H1 receptor,973,197,24,24
+CHEMBL264_Ki,Histamine H3 receptor,2862,574,42,42
+CHEMBL2835_Ki,Janus kinase 1,615,126,10,10
+CHEMBL2971_Ki,Janus kinase 2,976,197,17,17
+CHEMBL237_EC50,Kappa opioid receptor,955,193,48,47
+CHEMBL237_Ki,Kappa opioid receptor,2603,522,43,43
+CHEMBL233_Ki,u-opioid receptor,3142,630,41,41
+CHEMBL4792_Ki,Orexin receptor 2,1471,297,54,54
+CHEMBL239_EC50,Peroxisome proliferator-activated receptor alpha,1721,347,41,41
+CHEMBL235_EC50,Peroxisome proliferator-activated receptor gamma,2349,472,38,38
+CHEMBL3979_EC50,Peroxisome proliferator-activated receptor delta,1125,226,42,42
+CHEMBL4005_Ki,PI3-kinase p110-alpha subunit,960,193,42,42
+CHEMBL2147_Ki,Serine/threonine-protein kinase PIM1,1456,294,39,39
+CHEMBL214_Ki,Serotonin 1a receptor,3317,666,37,37
+CHEMBL228_Ki,Serotonin transporter,1704,342,37,37
+CHEMBL287_Ki,Sigma opioid receptor,1328,267,38,39
+CHEMBL204_Ki,Thrombin,2754,553,40,40
+CHEMBL1862_Ki,Tyrosine-protein kinase ABL1,794,161,42,42

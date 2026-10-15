@@ -1,0 +1,10 @@
+{
+  "dataset": "CHEMBL237_EC50",
+  "differing_rows": [],
+  "n": 955,
+  "n_cliff_published": 456,
+  "n_cliff_recomputed": 456,
+  "n_differ": 0,
+  "seconds": 3.6390843000000075,
+  "sha256": "dd5ef9a0cf3157f337b520d271d18ffd58bd4df2436203e4ccb1b241cfa6c9e7"
+}

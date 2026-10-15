@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moleculeace-gcn-implementation"
+version = "1.0.0"
+description = "A bounded GCN reproduction derived from the original MoleculeACE implementation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENCE" }
+authors = [{ name = "Cristina Correa Segade" }]
+# Original MoleculeACE: Derek van Tilborg and collaborators; attribution in README.md and LICENCE.
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "PyYAML",
+    "rdkit-pypi",
+    "python-Levenshtein",
+]
+
+[project.urls]
+"Original MoleculeACE" = "https://github.com/molML/MoleculeACE"
+Repository = "https://github.com/CrisCorreaS/MoleculeACE_GCN_Implementation"
+
+[tool.setuptools.packages.find]
+where = ["code"]
+include = ["MoleculeACE*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+MoleculeACE = [
+    "Data/benchmark_data/*.csv",
+    "Data/benchmark_data/metadata/*.csv",
+    "Data/configures/default/*.yml",
+    "Data/configures/benchmark/*/*.yml",
+]
+
+[tool.ruff]
+required-version = "==0.15.7"
+line-length = 88
+target-version = "py310"
+force-exclude = true
+# Recorded training sources and the immutable snapshot are excluded from linting and formatting.
+extend-exclude = [
+    "provenance/",
+    "code/MoleculeACE/__init__.py",
+    "code/MoleculeACE/benchmark/__init__.py",
+    "code/MoleculeACE/benchmark/artifacts.py",
+    "code/MoleculeACE/benchmark/campaign.py",
+    "code/MoleculeACE/benchmark/cliffs.py",
+    "code/MoleculeACE/benchmark/const.py",
+    "code/MoleculeACE/benchmark/featurization.py",
+    "code/MoleculeACE/benchmark/gpu_allocation.py",
+    "code/MoleculeACE/benchmark/utils.py",
+    "code/MoleculeACE/models/__init__.py",
+    "code/MoleculeACE/models/gcn.py",
+    "code/MoleculeACE/models/training.py",
+    "code/MoleculeACE/models/utils.py",
+    "code/aggregate_results.py",
+    "code/analyze_results.py",
+    "code/env_check.py",
+    "code/gpu_worker_child.py",
+    "code/make_manifest.py",
+    "code/run_benchmark.py",
+    "code/run_gpu_worker.py",
+    "code/task_status.py",
+    "code/tests/helpers.py",
+    "code/tests/repeatability_diagnostic.py",
+    "code/tests/test_aggregation.py",
+    "code/tests/test_analysis.py",
+    "code/tests/test_artifacts.py",
+    "code/tests/test_batch_dispatch.py",
+    "code/tests/test_ciai_gcn.py",
+    "code/tests/test_data.py",
+    "code/tests/test_gpu_allocation.py",
+    "code/tests/test_gpu_workers.py",
+    "code/tests/test_launcher.py",
+    "code/tests/test_manifest.py",
+    "code/tests/test_requeue.py",
+    "code/tests/test_scope_compat.py",
+    "code/tests/test_training_protocol.py",
+    "code/verify_cliffs.py",
+    "code/verify_datasets.py",
+]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+# Select the non-interactive plotting backend before importing pyplot.
+"code/tests/test_plot_paper_figures.py" = ["E402"]

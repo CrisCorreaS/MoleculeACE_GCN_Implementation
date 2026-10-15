@@ -1,0 +1,39 @@
+# Python bytecode, test/lint caches and build products.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local Python environments and download caches.
+.venv*/
+venv/
+env/
+.env/
+.cache*/
+
+# Operating-system metadata.
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Private runtime configuration; the example remains public.
+/jobs/cluster.env
+
+# Regenerated figures and subsequent validation reports.
+/figures_*/
+/results/validation/*
+!/results/validation/evidence.json
+
+# Full evidence is distributed in the ZIP, preserving its original bytes.
+/logs/
+/results/gcn_full_v1/CHEMBL*/
+/results/gcn_full_v1/_summary/summary.json
+/results/environment/env_check_*.json
+/results/diagnostics/
+/provenance/training_source/code/tests/test_launcher.py

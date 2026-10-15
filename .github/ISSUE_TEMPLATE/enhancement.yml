@@ -1,0 +1,40 @@
+name: Enhancement request
+description: Propose an improvement to analysis, figures, code clarity or documentation.
+title: "[Enhancement] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem and a reviewable improvement within the GCN_GRAPH reproduction scope.
+        Changes to the scientific protocol need explicit justification and separate evidence.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: Explain who would benefit and what is difficult today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: Describe the intended result, relevant inputs and outputs, and any alternatives considered.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scientific scope and compatibility
+      description: Identify effects on datasets, splits, model settings, aggregation, file paths, schemas or published comparisons. State explicitly if none are expected.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How to assess the improvement
+      description: Suggest a meaningful check, expected figure change or documentation example. New analysis should preserve original evidence.
+  - type: textarea
+    id: references
+    attributes:
+      label: Supporting references
+      description: Link relevant public documentation or scientific sources. Do not include private correspondence or account details.

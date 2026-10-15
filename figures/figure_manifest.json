@@ -1,0 +1,719 @@
+{
+  "schema_version": 2,
+  "hash_policy": "SHA-256 covers the input files, generator and generated products. figure_manifest.json excludes itself to avoid a circular self-hash.",
+  "status": "saved_reproduction_results",
+  "created_utc": "2026-10-15T06:00:59.900455+00:00",
+  "script": {
+    "path": "plot_paper_figures.py",
+    "sha256": "409c9d5e9a016d213823d52b3d2b0a56a2e37a5cfb3a862ca47ccd7f5b7eab73"
+  },
+  "inputs": {
+    "published": {
+      "path": "references\\published\\MoleculeACE_results.csv",
+      "sha256": "eaf8551af546afb3fff86e6d06529e52d7321b19ed51da93482776dc4696ef0f"
+    },
+    "comparison": {
+      "path": "results\\gcn_full_v1\\_analysis\\comparison.csv",
+      "sha256": "fb053e8726854f0ebb2c00adacdc9bc28aa25cc47f9bdf3473ef1ef3c882a638"
+    },
+    "per_fold": {
+      "path": "results\\gcn_full_v1\\_summary\\per_fold.csv",
+      "sha256": "8f7bd8acdcdcca612dc5bdfdf93069bc3e295f616b821cbdb425d1a23c117844"
+    },
+    "benchmark_dir": {
+      "path": "code\\MoleculeACE\\Data\\benchmark_data",
+      "files": [
+        {
+          "dataset": "CHEMBL1862_Ki",
+          "file": "CHEMBL1862_Ki.csv",
+          "sha256": "c69adcbb021591ba2c564df1e9eb55d465b3c51e78d0237ec0527942eb20cfdb"
+        },
+        {
+          "dataset": "CHEMBL1871_Ki",
+          "file": "CHEMBL1871_Ki.csv",
+          "sha256": "49d7f824fdbbc1c87fc69e239934558ac7e8612ca4c7e034314600b0b7c51821"
+        },
+        {
+          "dataset": "CHEMBL2034_Ki",
+          "file": "CHEMBL2034_Ki.csv",
+          "sha256": "9b9f4cca381cfd9e240603b0af24d9de742e421b984daf08c7c2458132eb3e4b"
+        },
+        {
+          "dataset": "CHEMBL2047_EC50",
+          "file": "CHEMBL2047_EC50.csv",
+          "sha256": "db8946f3daa245ad3e03576aca1e6ea44eda560abd9f730090762a6b68cc8c39"
+        },
+        {
+          "dataset": "CHEMBL204_Ki",
+          "file": "CHEMBL204_Ki.csv",
+          "sha256": "54da2410087fb6a7d39e327e06af9b63044121bffbae9e3a8b61589217544e05"
+        },
+        {
+          "dataset": "CHEMBL2147_Ki",
+          "file": "CHEMBL2147_Ki.csv",
+          "sha256": "33a1ff7d4b2a9ca684550b74148a2e0674e0810b48a7d8deacf44881b00d2b2a"
+        },
+        {
+          "dataset": "CHEMBL214_Ki",
+          "file": "CHEMBL214_Ki.csv",
+          "sha256": "6d412099986b7b9769d878a6fd9a6cf137f257455a87610a4f35b00daa86758f"
+        },
+        {
+          "dataset": "CHEMBL218_EC50",
+          "file": "CHEMBL218_EC50.csv",
+          "sha256": "2cad0b9bde956e6ce9b0cff150f674270bebf4c52afce7aaa74abdaaccc192c2"
+        },
+        {
+          "dataset": "CHEMBL219_Ki",
+          "file": "CHEMBL219_Ki.csv",
+          "sha256": "12bdaa25aff44ec4abef3b09199338405074ef39677843b7f46a006b8938f307"
+        },
+        {
+          "dataset": "CHEMBL228_Ki",
+          "file": "CHEMBL228_Ki.csv",
+          "sha256": "7251c50e7eb40080edb762b3ee5bd37e10046ea121a52ff8e0e9eb0a7a0b76c2"
+        },
+        {
+          "dataset": "CHEMBL231_Ki",
+          "file": "CHEMBL231_Ki.csv",
+          "sha256": "878adc58fce97794d5df1352c2f17631906007d8228c7f7f132360e49e811260"
+        },
+        {
+          "dataset": "CHEMBL233_Ki",
+          "file": "CHEMBL233_Ki.csv",
+          "sha256": "1bcbc97887a9dbffd51088fd3a77bd66b65ff9d050046a4dfc0003bae85b5670"
+        },
+        {
+          "dataset": "CHEMBL234_Ki",
+          "file": "CHEMBL234_Ki.csv",
+          "sha256": "447d38f659b86c7177f022b16f028db6828ab09c80051e74dad420168970f657"
+        },
+        {
+          "dataset": "CHEMBL235_EC50",
+          "file": "CHEMBL235_EC50.csv",
+          "sha256": "48f9eae7eea5e1241fbd2bb8d936a323a93562275c4d4de746d644d76dadb66e"
+        },
+        {
+          "dataset": "CHEMBL236_Ki",
+          "file": "CHEMBL236_Ki.csv",
+          "sha256": "c40c6e987e6caf5019faf7aa19eee82ec9b500d51650d031bab473c6425601ee"
+        },
+        {
+          "dataset": "CHEMBL237_EC50",
+          "file": "CHEMBL237_EC50.csv",
+          "sha256": "dd5ef9a0cf3157f337b520d271d18ffd58bd4df2436203e4ccb1b241cfa6c9e7"
+        },
+        {
+          "dataset": "CHEMBL237_Ki",
+          "file": "CHEMBL237_Ki.csv",
+          "sha256": "20474e12e78596d28cd238cfde693dd476d29797c54efcb60ff0276c345592f1"
+        },
+        {
+          "dataset": "CHEMBL238_Ki",
+          "file": "CHEMBL238_Ki.csv",
+          "sha256": "305d33df171e112c1cd75855c12377b0096e4e3726b910339169b1ab982a2c05"
+        },
+        {
+          "dataset": "CHEMBL239_EC50",
+          "file": "CHEMBL239_EC50.csv",
+          "sha256": "bbba9d4fdbd8cda84eb66a4fdc07af989454ff85a9f182a86d14fa94543cae41"
+        },
+        {
+          "dataset": "CHEMBL244_Ki",
+          "file": "CHEMBL244_Ki.csv",
+          "sha256": "b296c5956c9b3659fa039f057ebcb617919acd759c9255ed72bee917d99b4ef2"
+        },
+        {
+          "dataset": "CHEMBL262_Ki",
+          "file": "CHEMBL262_Ki.csv",
+          "sha256": "8b6df9f67a87855d4fda89d1bd977cf2f3b71327387d2e0ba6c8673640fb94dd"
+        },
+        {
+          "dataset": "CHEMBL264_Ki",
+          "file": "CHEMBL264_Ki.csv",
+          "sha256": "4c70fb8a6292a07ab4d65c805d967ac14a38b730bc9422ac0f133af33d899bcb"
+        },
+        {
+          "dataset": "CHEMBL2835_Ki",
+          "file": "CHEMBL2835_Ki.csv",
+          "sha256": "0c2226e533a9aad3ce59c48f90fca3b13910764dbc030ae4cdcb2f656cad5ec6"
+        },
+        {
+          "dataset": "CHEMBL287_Ki",
+          "file": "CHEMBL287_Ki.csv",
+          "sha256": "e857875848bb64dc6e327e6c42fe9fd36526bbee1b976de4521b55c4c6629894"
+        },
+        {
+          "dataset": "CHEMBL2971_Ki",
+          "file": "CHEMBL2971_Ki.csv",
+          "sha256": "4c83bb693523b6e4e1187482d603a4392c9299a2a21b031ddae85a9bb89d2e02"
+        },
+        {
+          "dataset": "CHEMBL3979_EC50",
+          "file": "CHEMBL3979_EC50.csv",
+          "sha256": "c351194eefbac48e0d4315cce44ff6731fc0b6a9a4d851e7b47cf9a81fd8cced"
+        },
+        {
+          "dataset": "CHEMBL4005_Ki",
+          "file": "CHEMBL4005_Ki.csv",
+          "sha256": "1483dad125d5d37719c5524d6b63bac93be6e7114f892a0d131ebc35f72632f7"
+        },
+        {
+          "dataset": "CHEMBL4203_Ki",
+          "file": "CHEMBL4203_Ki.csv",
+          "sha256": "f056efe7d24b98b789281ec07adb7a0118683ba5d8833c9fa296ddf8b438e3b2"
+        },
+        {
+          "dataset": "CHEMBL4616_EC50",
+          "file": "CHEMBL4616_EC50.csv",
+          "sha256": "d3690225e5a2000a4e34b5958be55674c892f0d7d8a6a3bc13a8ebb10c46b6a3"
+        },
+        {
+          "dataset": "CHEMBL4792_Ki",
+          "file": "CHEMBL4792_Ki.csv",
+          "sha256": "7fca442ad925803a72f9285b01d28a7b32372466a61183a0d5f2cdc4be90eb5e"
+        }
+      ]
+    }
+  },
+  "order_rule": "paper",
+  "dataset_order": [
+    "CHEMBL4203_Ki",
+    "CHEMBL231_Ki",
+    "CHEMBL2034_Ki",
+    "CHEMBL2835_Ki",
+    "CHEMBL2047_EC50",
+    "CHEMBL2971_Ki",
+    "CHEMBL1862_Ki",
+    "CHEMBL262_Ki",
+    "CHEMBL4616_EC50",
+    "CHEMBL287_Ki",
+    "CHEMBL1871_Ki",
+    "CHEMBL4005_Ki",
+    "CHEMBL238_Ki",
+    "CHEMBL228_Ki",
+    "CHEMBL3979_EC50",
+    "CHEMBL264_Ki",
+    "CHEMBL2147_Ki",
+    "CHEMBL237_EC50",
+    "CHEMBL218_EC50",
+    "CHEMBL237_Ki",
+    "CHEMBL233_Ki",
+    "CHEMBL214_Ki",
+    "CHEMBL236_Ki",
+    "CHEMBL234_Ki",
+    "CHEMBL219_Ki",
+    "CHEMBL239_EC50",
+    "CHEMBL235_EC50",
+    "CHEMBL204_Ki",
+    "CHEMBL4792_Ki",
+    "CHEMBL244_Ki"
+  ],
+  "identity": {
+    "published": {
+      "colour": "#2F3C8C",
+      "fill": "#B9BFE3",
+      "edge": "#1A214D",
+      "marker": "o",
+      "size": 26,
+      "label": "Published GCN (corrected)",
+      "short": "Published"
+    },
+    "reproduction": {
+      "colour": "#BC2351",
+      "fill": "#ECC1CE",
+      "edge": "#6D142F",
+      "marker": "D",
+      "size": 20,
+      "label": "Reproduced GCN (this work)",
+      "short": "Reproduction"
+    },
+    "context": {
+      "colour": "#BDBDBD",
+      "fill": "#EBEBEB",
+      "edge": "#7F7F7F",
+      "median": "#555555",
+      "marker": "o",
+      "label": "Other published strategies"
+    },
+    "difference": {
+      "colour": "#3F3F3F",
+      "edge": "#1A1A1A",
+      "marker": "s",
+      "label": "Reproduced − published"
+    }
+  },
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "outputs": [
+    {
+      "figure": "paired_cliff_rmse",
+      "file": "paired_cliff_rmse.pdf",
+      "sha256": "fb63460b78ab80104bed7355c5389206708ab9c6d0f0e27e9a28c2a4da1bf7bb"
+    },
+    {
+      "figure": "paired_cliff_rmse",
+      "file": "paired_cliff_rmse.svg",
+      "sha256": "4554cfb8616f945b4c833122cd4816d707887e8756d8c3edc8a8615be0a2a693"
+    },
+    {
+      "figure": "paired_cliff_rmse",
+      "file": "paired_cliff_rmse.png",
+      "sha256": "a131cc119fefe54b165dee6c682f2c5e25136999b7c7afead92970be4d94707e"
+    },
+    {
+      "figure": "paired_rmse",
+      "file": "paired_rmse.pdf",
+      "sha256": "7a6e948581adb75380f036277e6d041b57dddcb8cc5948b06c5050e669c43ec7"
+    },
+    {
+      "figure": "paired_rmse",
+      "file": "paired_rmse.svg",
+      "sha256": "0028c375d6881de1e925b82c2393926223588981f2b64d28a13ea60b706373d4"
+    },
+    {
+      "figure": "paired_rmse",
+      "file": "paired_rmse.png",
+      "sha256": "fbdfe110511dabb01af96e593b61b50fb87f98b77e878d0ee0b45117a7d6ccdc"
+    },
+    {
+      "figure": "paired_error_metrics",
+      "file": "paired_error_metrics.pdf",
+      "sha256": "734a00130fbfac050e2717847690b1ad6e2351c8511affe33e3e0cad73d9a0b1"
+    },
+    {
+      "figure": "paired_error_metrics",
+      "file": "paired_error_metrics.svg",
+      "sha256": "5cd2eebb47edb255ff9584cbfcdd299ed8bdd052608fa6e04605a79846144014"
+    },
+    {
+      "figure": "paired_error_metrics",
+      "file": "paired_error_metrics.png",
+      "sha256": "d87aaedce731a08f57df67a567e947e610bd951802a2f40d31bfae9867f53e50"
+    },
+    {
+      "figure": "cliff_rmse_strategy_context",
+      "file": "cliff_rmse_strategy_context.pdf",
+      "sha256": "04df1220bbed27fe14db85e64973c01762b862dfade9e46a894961834a9a89fb"
+    },
+    {
+      "figure": "cliff_rmse_strategy_context",
+      "file": "cliff_rmse_strategy_context.svg",
+      "sha256": "3adc54bf109ce8a5d9206c49f9a6d5c5b5beab5f4a0a4a61d3b5a473a33c0594"
+    },
+    {
+      "figure": "cliff_rmse_strategy_context",
+      "file": "cliff_rmse_strategy_context.png",
+      "sha256": "54402396f6693e96badfaa7df5b12480193d74f1ba4a9b53dea9952c90eb5f64"
+    },
+    {
+      "figure": "rmse_cliff_comparison",
+      "file": "rmse_cliff_comparison.pdf",
+      "sha256": "8aff8e492a9217c4e7e3954f54f0ca831e94f9c749544db5985ff0dcb1c054c0"
+    },
+    {
+      "figure": "rmse_cliff_comparison",
+      "file": "rmse_cliff_comparison.svg",
+      "sha256": "6b19cfdaedb24a923f7416fd11043b4092020c611d704b7c6e0a43791767e720"
+    },
+    {
+      "figure": "rmse_cliff_comparison",
+      "file": "rmse_cliff_comparison.png",
+      "sha256": "f809cb8ccff2543797561ac7df1c9fbd80e35bc67e09e132cb47a6c237230a07"
+    },
+    {
+      "figure": "rmse_cliff_comparison_overlay",
+      "file": "rmse_cliff_comparison_overlay.pdf",
+      "sha256": "1e5e2b62f57cc67be0390ebf1d4f233f1816474f4a0b2dab908f35aba8ec08a1"
+    },
+    {
+      "figure": "rmse_cliff_comparison_overlay",
+      "file": "rmse_cliff_comparison_overlay.svg",
+      "sha256": "bda28f18be68b01c6fcb99bff298457cb429cc5d1e468fbd9adceb43bbf4c29d"
+    },
+    {
+      "figure": "rmse_cliff_comparison_overlay",
+      "file": "rmse_cliff_comparison_overlay.png",
+      "sha256": "c545d64be1ae659a69ce191d50647136cc8cf7954436213174eec78aaf633584"
+    },
+    {
+      "figure": "rmse_cliff_shifts_zoomed",
+      "file": "rmse_cliff_shifts_zoomed.pdf",
+      "sha256": "5c7654d632a50198bcc8702a15f5661520a73bc30230a2bff86258baa81581c0"
+    },
+    {
+      "figure": "rmse_cliff_shifts_zoomed",
+      "file": "rmse_cliff_shifts_zoomed.svg",
+      "sha256": "02890a154237e0449ead12285887f7e6e1d2c07ea08775cc11056c44812ab897"
+    },
+    {
+      "figure": "rmse_cliff_shifts_zoomed",
+      "file": "rmse_cliff_shifts_zoomed.png",
+      "sha256": "3d6e050fe4ccad8ad2e126d7e9f60381c5eb38e34ba9dfe936e308fb3a174e2d"
+    },
+    {
+      "figure": "rmse_cliff_shifts_context",
+      "file": "rmse_cliff_shifts_context.pdf",
+      "sha256": "c771cfec074bf1a525376c1ac0086a20d3023564c82dede95fff677945099ff7"
+    },
+    {
+      "figure": "rmse_cliff_shifts_context",
+      "file": "rmse_cliff_shifts_context.svg",
+      "sha256": "32af91675b4e135a050b85bb0951f5b592b95783bacede426cce07e7fa716dfd"
+    },
+    {
+      "figure": "rmse_cliff_shifts_context",
+      "file": "rmse_cliff_shifts_context.png",
+      "sha256": "5b57b48a37cf377954f8c3d37d6a19e072089b24d30c617cc4027caf3115a124"
+    },
+    {
+      "figure": "cliff_error_difference_strategy_context",
+      "file": "cliff_error_difference_strategy_context.pdf",
+      "sha256": "01337d23f878c73754850bc12b7cd340853b99906c537c76e3b91632d9961047"
+    },
+    {
+      "figure": "cliff_error_difference_strategy_context",
+      "file": "cliff_error_difference_strategy_context.svg",
+      "sha256": "083d7e164104bbcb8e09033716945826c5498fa2f882fa0a639d0c51327b1a00"
+    },
+    {
+      "figure": "cliff_error_difference_strategy_context",
+      "file": "cliff_error_difference_strategy_context.png",
+      "sha256": "7765ffcd18204a29b287d45bd295c9653872c7c787c3b90ad00b0a5716a22975"
+    },
+    {
+      "figure": "cliff_error_difference_by_dataset",
+      "file": "cliff_error_difference_by_dataset.pdf",
+      "sha256": "0c96656ba75346f734c02fb93201e79b86a840ac45ffa4d505e347968e649b4c"
+    },
+    {
+      "figure": "cliff_error_difference_by_dataset",
+      "file": "cliff_error_difference_by_dataset.svg",
+      "sha256": "dd1a670227cb93e377f9fd107f50473201de609ab8b3aa3c2bf76c0be66ebd3e"
+    },
+    {
+      "figure": "cliff_error_difference_by_dataset",
+      "file": "cliff_error_difference_by_dataset.png",
+      "sha256": "dc9070c5dae3452bafa8b3386972f053c0e3e6df04e02a4593ba4703d0838860"
+    },
+    {
+      "figure": "dataset_errors_mean_sd",
+      "file": "dataset_errors_mean_sd.pdf",
+      "sha256": "b21c4aa89e93c7fa2018859486e02a2a95cbf2b9eca2665aa349dac898e895b5"
+    },
+    {
+      "figure": "dataset_errors_mean_sd",
+      "file": "dataset_errors_mean_sd.svg",
+      "sha256": "c4368f037cb487c63a9b80d78e20bfb53f8977faef7e821b899b41e1616ae19b"
+    },
+    {
+      "figure": "dataset_errors_mean_sd",
+      "file": "dataset_errors_mean_sd.png",
+      "sha256": "523bf55c412a1abba75c8492f9cd730b85d75690afabd12f1f3b75b3a943d479"
+    },
+    {
+      "figure": "dataset_errors_by_fold",
+      "file": "dataset_errors_by_fold.pdf",
+      "sha256": "9344341fcdab844d0c0f20d93183e34134e1081b2a940724d316a7495b41f534"
+    },
+    {
+      "figure": "dataset_errors_by_fold",
+      "file": "dataset_errors_by_fold.svg",
+      "sha256": "3f4deab7c962029a7e42cdda6eea25625fd3bcda2b7a7e8f0d96a2f297eff203"
+    },
+    {
+      "figure": "dataset_errors_by_fold",
+      "file": "dataset_errors_by_fold.png",
+      "sha256": "c33246ee0cb8f9545c1dc244643b61dc9c8f5c410704ae879672bdf8cc967839"
+    },
+    {
+      "figure": "cliff_error_difference_training_size",
+      "file": "cliff_error_difference_training_size.pdf",
+      "sha256": "e4bb80fa7ce69b8937b6976c1dd2d87e32136d2e9576ce2aa977fba2b79ff77e"
+    },
+    {
+      "figure": "cliff_error_difference_training_size",
+      "file": "cliff_error_difference_training_size.svg",
+      "sha256": "3cb9610580bd3bf787072d96fd1c8f7b0eca8752aadcf0a684f44c660db67f63"
+    },
+    {
+      "figure": "cliff_error_difference_training_size",
+      "file": "cliff_error_difference_training_size.png",
+      "sha256": "e7fbefb592d49a819911d818d710bb0273bb051f46f227bab4df5d5c8cd668c6"
+    },
+    {
+      "figure": "cliff_error_difference_training_size_comparison",
+      "file": "cliff_error_difference_training_size_comparison.pdf",
+      "sha256": "fcd4f906b8345483b16d23787753076693fc937abc03c7fbbccbba08e4ff98fe"
+    },
+    {
+      "figure": "cliff_error_difference_training_size_comparison",
+      "file": "cliff_error_difference_training_size_comparison.svg",
+      "sha256": "f9d98b3307840915516ea89a25e1ad8096f0ca24f4f6b6a8d1e65b6428e90cde"
+    },
+    {
+      "figure": "cliff_error_difference_training_size_comparison",
+      "file": "cliff_error_difference_training_size_comparison.png",
+      "sha256": "1fe8a02fae0322f272a1b4992731ad5cadd061be41aa0c8eefbb8210bedcd669"
+    },
+    {
+      "figure": "published_reproduced_agreement",
+      "file": "published_reproduced_agreement.pdf",
+      "sha256": "34c2c58acf5c6f4ddd804a87f7908b1d7cbd0ec0081a20b022a77d705a0bff71"
+    },
+    {
+      "figure": "published_reproduced_agreement",
+      "file": "published_reproduced_agreement.svg",
+      "sha256": "10635edf9b799a391ac1bd97f6aea70502b15bd74949d304525ac03c49d7e246"
+    },
+    {
+      "figure": "published_reproduced_agreement",
+      "file": "published_reproduced_agreement.png",
+      "sha256": "ebe6b61aba780db13e1ad25f797598d84465dda440313eca5be48e912fb7b03a"
+    },
+    {
+      "figure": "bland_altman_agreement",
+      "file": "bland_altman_agreement.pdf",
+      "sha256": "a17ddf7f9b8e5ad0e6b69dcf2e22bc365dba4eba277a36a23cf91d5525dcc220"
+    },
+    {
+      "figure": "bland_altman_agreement",
+      "file": "bland_altman_agreement.svg",
+      "sha256": "b8962f22427550aa2b1eded4d5d17350ae80c570cfdaac85f5ec7ae4cc9a64fd"
+    },
+    {
+      "figure": "bland_altman_agreement",
+      "file": "bland_altman_agreement.png",
+      "sha256": "0d0beb5aabfa26c717f9998e8e68f6baffe89f4599a984a472eb41ceb845865d"
+    },
+    {
+      "figure": "published_reproduced_differences_by_dataset",
+      "file": "published_reproduced_differences_by_dataset.pdf",
+      "sha256": "a38c7bb0526fa83215348b66c486ad97ec4b64519364dc18a35dab463240d3f4"
+    },
+    {
+      "figure": "published_reproduced_differences_by_dataset",
+      "file": "published_reproduced_differences_by_dataset.svg",
+      "sha256": "e0279ce870eedc01e9ac11234a9b0b9d074d7cfa41b72b92d281c5269e4c249b"
+    },
+    {
+      "figure": "published_reproduced_differences_by_dataset",
+      "file": "published_reproduced_differences_by_dataset.png",
+      "sha256": "27e296d9702156c3bb5d458f0110416032dfa4c7ae0c74c6894d50350c931d9a"
+    },
+    {
+      "figure": "published_reproduced_difference_distribution",
+      "file": "published_reproduced_difference_distribution.pdf",
+      "sha256": "3f689c754b843192be9b58378f395bc96966f9c17a9436a858dd9bf6f0ba7c81"
+    },
+    {
+      "figure": "published_reproduced_difference_distribution",
+      "file": "published_reproduced_difference_distribution.svg",
+      "sha256": "341ff01d40ac373a878e2417e33794b6be8072bfdcb62b5d2d8e3d42d2f5da42"
+    },
+    {
+      "figure": "published_reproduced_difference_distribution",
+      "file": "published_reproduced_difference_distribution.png",
+      "sha256": "36742076c8f2893c841836350c7018e1e7a7c67b5647f491979e10d961b351ec"
+    },
+    {
+      "figure": "published_strategy_ranking_context",
+      "file": "published_strategy_ranking_context.pdf",
+      "sha256": "2a92a219f85b5238297d72d1295ce92df215b8c2db486e234b422f03cf8012e8"
+    },
+    {
+      "figure": "published_strategy_ranking_context",
+      "file": "published_strategy_ranking_context.svg",
+      "sha256": "2fc8c0ccf5f8946edc1b467d7329f56651557d1456ac9b814fd9289c836cde6f"
+    },
+    {
+      "figure": "published_strategy_ranking_context",
+      "file": "published_strategy_ranking_context.png",
+      "sha256": "18dd263f637d733ab23d613dc3604329f470a3ea6ae8a063a56b479b899f335b"
+    },
+    {
+      "figure": "activity_cliff_example_datasets",
+      "file": "activity_cliff_example_datasets.pdf",
+      "sha256": "95a515a569f424753fb537995e78e0b42ed8b2865ab82919391bb7036f52d12e"
+    },
+    {
+      "figure": "activity_cliff_example_datasets",
+      "file": "activity_cliff_example_datasets.svg",
+      "sha256": "a4d229e8a121e8cf99f60e5e1fddf6dd6e8174aa32dc806c32a1d6214ec5262a"
+    },
+    {
+      "figure": "activity_cliff_example_datasets",
+      "file": "activity_cliff_example_datasets.png",
+      "sha256": "8ae9a0169d86e70f2cbee98a9d23558a1b755252833f52ac7436f5fac71512fb"
+    },
+    {
+      "figure": "activity_cliff_overview",
+      "file": "activity_cliff_overview.pdf",
+      "sha256": "70ea3443a7ffd767eac51367f18ff965fc1e67a41b84cd38fa2cf8674bcb0e6a"
+    },
+    {
+      "figure": "activity_cliff_overview",
+      "file": "activity_cliff_overview.svg",
+      "sha256": "07738a5f4228af3ec74770e8e6550b4f2e1c0bdac06de915991049b5f1b1e09b"
+    },
+    {
+      "figure": "activity_cliff_overview",
+      "file": "activity_cliff_overview.png",
+      "sha256": "4365bc57d1b0993686335ab1582c52468460612967e26f666370a82ca297cd07"
+    },
+    {
+      "figure": "dataset_comparison_overview",
+      "file": "dataset_comparison_overview.pdf",
+      "sha256": "908dc1d825c92613be90254914e63733099dd071beb925097f6879bcd49226db"
+    },
+    {
+      "figure": "dataset_comparison_overview",
+      "file": "dataset_comparison_overview.svg",
+      "sha256": "61d56761cce8cff660581a0288f7ebe06f9c438f16d06d1cbf94b7cfb0c96205"
+    },
+    {
+      "figure": "dataset_comparison_overview",
+      "file": "dataset_comparison_overview.png",
+      "sha256": "68e7c48af4b5db79551c4275d6ebcae558d71a45d97e6a420e30481cf3a51a14"
+    },
+    {
+      "figure": "gcn_results_overview",
+      "file": "gcn_results_overview.pdf",
+      "sha256": "6881b8120df9a11d68f351f20a3eb035ee0527a1b143cf27fee2095c0e0366b4"
+    },
+    {
+      "figure": "gcn_results_overview",
+      "file": "gcn_results_overview.svg",
+      "sha256": "06491f7a1de6cc188b66c7894f65742a700a55423ee61e6d46ee85fd68c3b4e1"
+    },
+    {
+      "figure": "gcn_results_overview",
+      "file": "gcn_results_overview.png",
+      "sha256": "ca6a59e40756a25b6ab419fd7bdb817ccf1504fd71347f96708ca571b286b9f8"
+    },
+    {
+      "figure": "dataset_error_comparison_table",
+      "file": "dataset_error_comparison_table.pdf",
+      "sha256": "9171538ce3a6daf60f3d0050e9f8851828243a0d0c7e2a0fa78351cfb97b58f3"
+    },
+    {
+      "figure": "dataset_error_comparison_table",
+      "file": "dataset_error_comparison_table.svg",
+      "sha256": "adc2eea6bc18531948f9cfbed7cbc3726eef38bb5e051c8ac54ee2d556401069"
+    },
+    {
+      "figure": "dataset_error_comparison_table",
+      "file": "dataset_error_comparison_table.png",
+      "sha256": "0b739caf77a9355ce4720001155d02d5b08ad811e6bff8691652e444a178976f"
+    }
+  ],
+  "supporting_outputs": [
+    {
+      "file": "figure_data.csv",
+      "sha256": "deeab6f0a2f5772145c25f115982427962ac19e97a4dffecae4f827473a07c92"
+    },
+    {
+      "file": "figure_captions.md",
+      "sha256": "0d6311da3ce33624360e33d9788ba478c74cf0d0ede98d160b095b72b96c14bb"
+    },
+    {
+      "file": "figure_catalogue.pdf",
+      "sha256": "ab0e1097fbd432ba12c36b6fa3f911f9da0c516d81cc086d96f19264854e9147"
+    }
+  ],
+  "delivery_preservation": {
+    "mode": "existing_visual_exports_retained_after_equivalence_check",
+    "note": "The existing PNG, PDF and SVG exports and figure_catalogue.pdf were retained after comparison with a new export from the generator identified by comparison_script_sha256. Their hashes identify the retained delivered bytes, not regenerated bytes. The candidate PDF/SVG differences were confined to automatic date metadata; figure_captions.md was updated and figure_data.csv was unchanged.",
+    "baseline_script_sha256": "a4654bc7e5f5d15ad28026fbb042bc7a99d789cb9192ac1ecf03879f81ca6c27",
+    "retained_files": [
+      "activity_cliff_example_datasets.pdf",
+      "activity_cliff_example_datasets.png",
+      "activity_cliff_example_datasets.svg",
+      "activity_cliff_overview.pdf",
+      "activity_cliff_overview.png",
+      "activity_cliff_overview.svg",
+      "bland_altman_agreement.pdf",
+      "bland_altman_agreement.png",
+      "bland_altman_agreement.svg",
+      "cliff_error_difference_by_dataset.pdf",
+      "cliff_error_difference_by_dataset.png",
+      "cliff_error_difference_by_dataset.svg",
+      "cliff_error_difference_strategy_context.pdf",
+      "cliff_error_difference_strategy_context.png",
+      "cliff_error_difference_strategy_context.svg",
+      "cliff_error_difference_training_size.pdf",
+      "cliff_error_difference_training_size.png",
+      "cliff_error_difference_training_size.svg",
+      "cliff_error_difference_training_size_comparison.pdf",
+      "cliff_error_difference_training_size_comparison.png",
+      "cliff_error_difference_training_size_comparison.svg",
+      "cliff_rmse_strategy_context.pdf",
+      "cliff_rmse_strategy_context.png",
+      "cliff_rmse_strategy_context.svg",
+      "dataset_comparison_overview.pdf",
+      "dataset_comparison_overview.png",
+      "dataset_comparison_overview.svg",
+      "dataset_error_comparison_table.pdf",
+      "dataset_error_comparison_table.png",
+      "dataset_error_comparison_table.svg",
+      "dataset_errors_by_fold.pdf",
+      "dataset_errors_by_fold.png",
+      "dataset_errors_by_fold.svg",
+      "dataset_errors_mean_sd.pdf",
+      "dataset_errors_mean_sd.png",
+      "dataset_errors_mean_sd.svg",
+      "figure_catalogue.pdf",
+      "gcn_results_overview.pdf",
+      "gcn_results_overview.png",
+      "gcn_results_overview.svg",
+      "paired_cliff_rmse.pdf",
+      "paired_cliff_rmse.png",
+      "paired_cliff_rmse.svg",
+      "paired_error_metrics.pdf",
+      "paired_error_metrics.png",
+      "paired_error_metrics.svg",
+      "paired_rmse.pdf",
+      "paired_rmse.png",
+      "paired_rmse.svg",
+      "published_reproduced_agreement.pdf",
+      "published_reproduced_agreement.png",
+      "published_reproduced_agreement.svg",
+      "published_reproduced_difference_distribution.pdf",
+      "published_reproduced_difference_distribution.png",
+      "published_reproduced_difference_distribution.svg",
+      "published_reproduced_differences_by_dataset.pdf",
+      "published_reproduced_differences_by_dataset.png",
+      "published_reproduced_differences_by_dataset.svg",
+      "published_strategy_ranking_context.pdf",
+      "published_strategy_ranking_context.png",
+      "published_strategy_ranking_context.svg",
+      "rmse_cliff_comparison.pdf",
+      "rmse_cliff_comparison.png",
+      "rmse_cliff_comparison.svg",
+      "rmse_cliff_comparison_overlay.pdf",
+      "rmse_cliff_comparison_overlay.png",
+      "rmse_cliff_comparison_overlay.svg",
+      "rmse_cliff_shifts_context.pdf",
+      "rmse_cliff_shifts_context.png",
+      "rmse_cliff_shifts_context.svg",
+      "rmse_cliff_shifts_zoomed.pdf",
+      "rmse_cliff_shifts_zoomed.png",
+      "rmse_cliff_shifts_zoomed.svg"
+    ],
+    "verification": {
+      "png_pixel_identical": 24,
+      "pdf_pixel_identical": 24,
+      "pdf_comparison_dpi": 144,
+      "svg_identical_excluding_date_metadata": 24,
+      "catalogue_pages_pixel_identical": 24,
+      "catalogue_comparison_dpi": 144,
+      "figure_data_byte_identical": true
+    },
+    "comparison_script_sha256": "da79e0a88fdd6394ade9f060a0292c2a8e69d7b0fd09ae85928cfe398399af4b"
+  }
+}

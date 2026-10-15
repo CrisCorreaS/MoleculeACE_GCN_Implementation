@@ -1,0 +1,24 @@
+{
+  "file": "MoleculeACE_results.csv",
+  "sha256": "6aa88c897f16bbb328793a2917289e3972b3fc8b50cc56be840f6714ea9baae5",
+  "source_url": "https://github.com/molML/MoleculeACE/blob/45cf46d77f7681a7758d6447ffc3f239b349f406/MoleculeACE/Data/results/MoleculeACE_results.csv",
+  "source_commit": "45cf46d77f7681a7758d6447ffc3f239b349f406",
+  "correction_doi": "10.1021/acs.jcim.3c01576",
+  "corrected_results_verified": true,
+  "verification_evidence": "The correction points to molML/MoleculeACE for updated data/results. This CSV matches the 2023-09-29 Updated results commit, which preserves preceding results separately as _old. All 720 unique dataset/strategy rows and the 90 selected rows are present. The extrema round to corrected Table A RMSE 0.39-1.91 and cliff RMSE 0.58-1.74. This verifies the repository reference provenance, not its unrecorded training runs, seeds, early-stopping mode, or every numerical value against figure pixels.",
+  "observed_ranges": {
+    "rmse": [
+      0.387563669,
+      1.906317806
+    ],
+    "cliff_rmse": [
+      0.579571862,
+      1.743356626
+    ]
+  },
+  "reference_rows": 720,
+  "selected_rows": 90,
+  "starting_checkout": "7e6de0bd2968c56589c580f2a397f01c531ede26",
+  "normalized_content_verified": true,
+  "early_stopping_of_published_runs": "unresolved; no per-run manifests in upstream"
+}

@@ -1,0 +1,14 @@
+# Keep byte-identical data (manifest hashes) and LF shell scripts on every platform.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.pt binary
+code/**/*.py -text
+code/MoleculeACE/Data/** -text
+references/** -text
+provenance/training_source/** -text
+provenance/** linguist-generated=true
+results/** -text
+logs/** -text
+jobs/manifest_full.csv -text
+LICENCE -text

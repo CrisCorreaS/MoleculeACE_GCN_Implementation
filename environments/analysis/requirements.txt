@@ -1,0 +1,7 @@
+# Local CPU analysis only; the historical training pins remain separate.
+# Verified with Python 3.14 on Windows. Review upgrades with figures and tests.
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+PyYAML==6.0.3
+pypdfium2==5.13.0

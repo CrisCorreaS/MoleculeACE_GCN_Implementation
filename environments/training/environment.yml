@@ -1,0 +1,12 @@
+# Base of the historical training environment; see README.md and jobs/run_setup.sh.
+# Python 3.8: the version upstream MoleculeACE declares, and inside the wheel range of torch 1.11 / PyG 2.0.4.
+# Every Python package, torch and PyG included, is installed afterwards with pip from pinned versions.
+name: moleculeace-gcn
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.8.18
+  - pip=23.3.1
+  - setuptools=68.2.2
+  - wheel=0.41.3
